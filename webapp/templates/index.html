@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>COVID Model</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>COVID Analysis</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+     <input type="file" name="image" value="Upload">
+     <input type="submit" value="Predict"> {% if label %} {{ label }} {% endif %}
+     <p> COVID Probability: {{ COVID }}</p>
+     <p> NORMAL Probability: {{ NORMAL }} </p>
+     <p> Pneumonia Probability: {{ Pneumonia }} </p>
+    </form>
+  </body>
+</html>
