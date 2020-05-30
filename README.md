@@ -1,8 +1,10 @@
 # CoronaDiagnosis
-Uses a Convolutional Neural Network to classify Chest X-Rays as COVID, NORMAL, or VIRAL PNEUMONIA.
+Uses a Convolutional Neural Network to diagnose COVID-19. The CNN classifies X-Rays to diagnose images as COVID-19, NORMAL, or VIRAL Pneumonia
 
 About the Scripts Directory:
 The ```covid.py``` file contains all of code for the Convolutional Neural Network. It has code to preprocess the images, create the layers of the neural network, and make predictions on either single images or sets of images. It also has code for a confusion matrix.
+The ```COVID.ipynb``` file is just the Jupyter Notebook version of ```covid.py```. The Notebook contains important figures.
+
 
 Instructions on How to Use this WebApp:
 1. Clone this repo
